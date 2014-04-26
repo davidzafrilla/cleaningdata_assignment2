@@ -42,4 +42,62 @@ The columns correspond to the variables selected:
     * the ones containing "Mean"
     
   
+CodeBook
+=========
+
+subject_id: identifier of the subject who carried out the experiment
+
+activity: activity label
+
+Mean of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc.mean...XYZ
+tGravityAcc.mean...XYZ
+tBodyAccJerk.mean...XYZ
+tBodyGyro.mean...XYZ
+tBodyGyroJerk.mean...XYZ
+tBodyAccMag.mean
+tGravityAccMag.mean
+tBodyAccJerkMag.mean
+tBodyGyroMag.mean
+tBodyGyroJerkMag.mean
+fBodyAcc.meanFreq...XYZ
+fBodyAccJerk.meanFreq...XYZ
+fBodyGyro.meanFreq...XYZ
+fBodyAccMag.mean
+fBodyAccJerkMag.mean
+fBodyGyroMag.mean
+fBodyGyroJerkMag.mean
+
+Standard deviation of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc.std...XYZ
+tGravityAcc.std...XYZ
+tBodyAccJerk.std...XYZ
+tBodyGyro.std...XYZ
+tBodyGyroJerk.std...XYZ
+tBodyAccMag.std
+tGravityAccMag.std
+tBodyAccJerkMag.std
+tBodyGyroMag.std
+tBodyGyroJerkMag.std
+fBodyAcc.std...XYZ
+fBodyAccJerk.std...XYZ
+fBodyGyro.std...XYZ
+fBodyAccMag.std
+fBodyAccJerkMag.std
+fBodyGyroMag.std
+fBodyGyroJerkMag.std
+
+vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+angle.tBodyAccMean.gravity
+angle.tBodyAccJerkMean..gravityMean
+angle.tBodyGyroMean.gravityMean
+angle.tBodyGyroJerkMean.gravityMean
+angle.X.gravityMean
+angle.Y.gravityMean
+angle.Z.gravityMean                
 
